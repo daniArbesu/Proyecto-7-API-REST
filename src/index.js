@@ -1,5 +1,6 @@
 /* eslint no-console: ["error", { allow: ["warn", "error", "log"] }] */
 const express = require('express');
+require('./config/db');
 const exercisesRouter = require('./routes/Exercises');
 
 const app = express();
