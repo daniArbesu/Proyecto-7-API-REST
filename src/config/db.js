@@ -3,7 +3,7 @@
 const mongoose = require('mongoose');
 
 const MONGO_PORT = 27018;
-const MONGO_DB = 'test-db';
+const MONGO_DB = 'fitness';
 
 mongoose.set('strict', false);
 mongoose.set('strictQuery', false);
